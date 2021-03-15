@@ -7,7 +7,6 @@ app = Flask(__name__, template_folder='templates')
 
 
 @app.route("/")
-@app.route("/cancer")
 def cancer():
     return render_template("cancer.html")
 
